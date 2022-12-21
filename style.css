@@ -4,6 +4,17 @@
 
 #grid{
     display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#grid{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#grid{
+    display:flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -42,4 +53,9 @@
 #right {
     padding-left: 30px;
     
+}
+
+input{
+    border: none;
+    border-bottom:1px solid gray ;
 }

@@ -18,25 +18,59 @@ li{
 
 #grid{
     display: flex;
+    
 }
 
 
-#grid div{
-    border: 1px solid red;
-    width: 100%;
-}
 
-#left #sec{
+#left{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+  
 }
 
 .bluedrop{
     background-color: blue;
 }
 
-#tablecom table{
-    width: 100%;
+#grid div{
+    display: flex;
 }
+
+#inside1{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+#inside2{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#inside11{
+    display: flex;
+    justify-self: flex-end;
+    padding: 20px;
+}
+#inside12{
+    display: flex;
+    padding: 20px;
+}
+
+#right{
+    display: flex;
+}
+
+
 
 
