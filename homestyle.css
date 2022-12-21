@@ -1,0 +1,42 @@
+#nav{
+    display:flex;
+    background-color: blueviolet;
+    color: white;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+   
+}
+
+li{
+    margin-left: 20px;
+}
+
+#grid{
+    display: flex;
+}
+
+
+#grid div{
+    border: 1px solid red;
+    width: 100%;
+}
+
+#left #sec{
+    display: flex;
+    flex-direction: row;
+}
+
+.bluedrop{
+    background-color: blue;
+}
+
+#tablecom table{
+    width: 100%;
+}
+
+

@@ -1,0 +1,41 @@
+#nav{
+    display:flex;
+    background-color: blueviolet;
+    color: white;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+   
+}
+
+li{
+    margin-left: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+tr{
+    text-align: center;
+    
+}
+
+td{
+    height: 20px;
+    padding: 10px;
+}
+
+th{
+    padding: 10px;
+}
+
+.violetcolor{
+    background-color: rgb(208, 167, 247);
+}
